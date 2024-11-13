@@ -1,0 +1,13 @@
+/* Forbidden.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #FFBF00; /* Customize according to your theme */
+}
+
+p {
+    color: rgba(255, 255, 255, 0.7); /* Light gray for contrast */
+}

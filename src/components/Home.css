@@ -1,0 +1,53 @@
+.hero-section {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+}
+
+.search-input {
+    width: 300px;
+    border: 2px solid rgba(255, 255, 255, 0.7); /* White border with transparency */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    color: white;
+}
+
+.search-button {
+    background-color: rgba(34, 197, 94, 0.8); /* Green background */
+    border-color: rgba(34, 197, 94, 0.8); /* Matching border color */
+}
+
+.carousel  .ant-carousel .slick-slide {
+    transition: all 0.3s ease; /* Smooth transitions */
+}
+
+.carousel-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px; /* Rounded corners for carousel images */
+}
+
+.category-card {
+    transition: transform 0.3s ease; /* Animation on hover */
+}
+
+.category-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.category-image {
+    width: 100%;
+    height: 150px; /* Fixed height for category images */
+    object-fit: cover;
+    border-radius: 10px; /* Rounded corners for category images */
+}

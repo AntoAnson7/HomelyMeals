@@ -1,0 +1,21 @@
+/* OrderCard.css */
+.card-title {
+    color: #ffffff;
+}
+
+.card-description {
+    color: #b0b0b0;
+}
+
+.card-amount {
+    color: #e5e5e5;
+}
+
+.card-status {
+    font-weight: 600;
+}
+
+.card-progress {
+    margin-top: 16px;
+    border-radius: 4px;
+}
